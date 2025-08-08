@@ -1,0 +1,30 @@
+{
+    "name": "saas/api",
+    "description": "SAAS API",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dev",
+            "email": "dev@example.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "scripts": {
+        "dev": "php -S 0.0.0.0:8787 -t public",
+        "lint": "php -l public/index.php"
+    },
+    "require": {
+        "slim/slim": "^4",
+        "nyholm/psr7": "^1",
+        "slim/psr7": "^1",
+        "illuminate/database": "^11",
+        "illuminate/events": "^11",
+        "vlucas/phpdotenv": "^5",
+        "respect/validation": "^2",
+        "middlewares/cors": "^2",
+        "monolog/monolog": "^3",
+        "firebase/php-jwt": "^6",
+        "ramsey/uuid": "^4"
+    }
+}
